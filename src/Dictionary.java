@@ -7,19 +7,20 @@ private String value;
         this.value = value;
     }
 
-    public void countKey(){
 
+    public String getKey() {
+        return key;
     }
 
-    public void writeKey(){
-
+    public void setKey(String key) {
+        this.key = key;
     }
 
-    public void countValue(){
-
+    public String getValue() {
+        return value;
     }
 
-    public void writeValue(){
-
+    public void setValue(String value) {
+        this.value = value;
     }
 }
