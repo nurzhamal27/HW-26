@@ -5,9 +5,19 @@ public interface Connectible {
 
     void checkConnection();
 
-    void countOneRowIndex();
+    void countOneRowByIndex();
 
-    void checkRecordKey();
+    void checkRecordByKey();
 
+    void countOneRecordByKey();
 
+    void countDataBaseRecord();
+
+    void findDatabaseNumber();
+
+    void addRecord();
+
+    void upDateValueByIndex();
+
+    void updateContentByKey();
 }
